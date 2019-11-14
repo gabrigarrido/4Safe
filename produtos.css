@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/*configura o corpo da página produto*/
+#produtos-container .div-seguros {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  align-items: center;
+}
+
+/*mexe no título das fotos*/
+#produtos-container .div-seguros p:first-of-type {
+  font-weight: bold;
+  font-size: 16pt;
+  padding: 10px 0;
+}
+
+/*mexe no texto das fotos*/
+#produtos-container .div-seguros p:last-child {
+  padding-top: 10px;
+}
+
+/*foto2*/
+.foto-familia {
+  width: 25%;
+  height: 25%;
+  border-radius: 10pt;
+}
+
+/*foto 1*/
+.foto-seg-carro {
+  width: 25%;
+  height: 25%;
+  border-radius: 10pt;
+}
+
+footer{
+  background-color: #3b4f66;
+  height: 60px; /*Pode Varia conforme o resto da sua Pagina*/
+}
+#secondSectionFooter {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+#iconFooter {
+  margin-right: 10px;
+@media (max-width: 450px) {
+    footer{
+      height:90px;
+ }
+    #firstSectionFooter{
+      padding-left: 10px;
+  }
+}

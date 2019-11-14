@@ -1,0 +1,191 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: 'Arial', sans-serif;
+}
+
+#mainContainer{
+    background-color: #ffffff;
+    height:445px;
+    width: 1320px;
+}
+
+#formButton {
+    box-shadow: -4px 5px 8px 0px #313738;
+    background: linear-gradient(to bottom, #385f71 5%, #3b4f66 100%);
+    background-color: #59a2bd;
+    border-radius: 7px;
+    border: 1px solid #36607b;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 15px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #3d768a;
+}
+
+label {
+    color:black;
+}
+
+#formMain {
+    justify-content: center;
+    display: flex;
+}
+
+#paragrafoDiv {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#name {
+    width: 231px;
+}
+
+#mail {
+    width: 231px;
+}
+
+#message {
+    width: 340px;
+    height: 129px;
+}
+
+#mainTitle {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+#formButton {
+    margin-top: 5px
+}
+
+#formContainer {
+    padding-left: 210px;
+}
+@media (max-width: 924px){
+   #formContainer{
+       padding-left: 14px;
+   }
+   #mainContainer{
+    width: 110%;
+   }
+   #mainTitle{
+       text-align: center;
+   }
+   #formDiv p{
+       text-align: start;
+   }
+   #formMain{
+       display: flex;
+       flex-direction: column;
+   }
+   
+}
+
+/*----*/
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:houver {
+    cursor: pointer;
+}
+/* Costomização header */
+
+#logo4safe {
+    max-height: 110px;
+}
+
+.header {
+    background-color: #3b4f66;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 25px;
+    font-size: 18px;
+}
+
+.linha {
+    height: 10px;
+    background-color: #9bd46d;
+}
+#secondSectionFooter{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    padding-right: 40px;    
+}
+
+#secondSectionFooter p{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 13pt;
+    
+}
+#iconFooter{
+    margin-right: 10px;
+}
+footer{
+    background-color: #3b4f66;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+@media (max-width: 450px) {
+    .menu {
+        padding-top: 10px;
+    }
+    #firstSectionFooter{
+        padding-left: 10px;
+
+    }
+    #imgFooter{
+      display: flex;
+      width: auto;
+    }
+    #formDiv{
+      margin: 15px;
+    }
+    footer{
+      height: auto;
+    }
+    #message{
+      width: 183px;
+      height: 50px;
+    }
+
+    #subtitleFooter h3{
+      font-size: 12pt;
+    }
+    #secondSectionFooter p{
+      font-size: 10pt
+    }
+    #mainContainer{
+        width:auto;
+        padding-left: 10px;
+    }
+    footer{
+        height:90px;
+   }
+   .header{
+       height: 165px;
+   }
+}
